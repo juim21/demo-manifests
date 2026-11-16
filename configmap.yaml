@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: demo-config
+data:
+  APP_VERSION: "0.2-cm2"
+  JAVA_TOOL_OPTIONS: "-XX:MaxRAMPercentage=75"
+  MANAGEMENT_ENDPOINT_HEALTH_PROBES_ENABLED: "true"
